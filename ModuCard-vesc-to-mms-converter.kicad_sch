@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "19c3ad7a-1b7d-4298-9053-cf734bfcea10")
+	(paper "A4")
+	(title_block
+		(title "Flipsky MMS module ")
+		(date "2024-12-14")
+		(rev "A")
+		(company "Modu System")
+	)
+	(lib_symbols)
+	(sheet
+		(at 184.15 74.93)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09185991-2b08-4e41-9e65-0618febadbdd")
+		(property "Sheetname" "Power"
+			(at 184.15 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 184.15 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModuCard-vesc-to-mms-converter"
+				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 76.2)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57d5ea5a-77df-43d7-95b9-bf9fc02879bb")
+		(property "Sheetname" "CAN"
+			(at 96.52 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 96.52 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModuCard-vesc-to-mms-converter"
+				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 76.2)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "784981f3-1636-4173-a57d-405148891330")
+		(property "Sheetname" "USB"
+			(at 142.24 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 142.24 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModuCard-vesc-to-mms-converter"
+				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
